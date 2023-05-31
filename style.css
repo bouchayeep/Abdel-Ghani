@@ -3,6 +3,18 @@
 * {
     font-family: 'Oswald', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+.Nav-Bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(114, 114, 114);
+    cursor: pointer;
+}
 
 h1 {
     text-align: center;
